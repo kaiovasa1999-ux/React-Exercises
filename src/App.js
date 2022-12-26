@@ -7,7 +7,6 @@ function App() {
       <Header />
       <body>
         <div id="box">
-          <main id="main-content"></main>
           <section id="welcome-world">
             <div class="welcome-message">
               <h2>ALL new games are</h2>
