@@ -1,19 +1,16 @@
 import React from "react";
 import CreateGame from "./CreateGame";
 
-function Header() {
+function Header({ handlerNavigator }) {
   const onHeaderClick = (e) => {
     e.preventDefault();
 
     if (e.target.tagName == "A") {
       let url = new URL(e.target.href);
-      console.log(url.pathname);
+      handlerNavigator(url.pathname);
     }
   };
-  const router = {
-    "/home": <Header />,
-    "/createGame": <CreateGame />,
-  };
+
   return (
     <header onClick={onHeaderClick}>
       <h1>

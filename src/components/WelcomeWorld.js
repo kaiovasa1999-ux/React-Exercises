@@ -8,7 +8,7 @@ function WelcomeWorld() {
           <h2>ALL new games are</h2>
           <h3>Only in GamesPlay</h3>
         </div>
-        <img src="/images/four_slider_img01.png" alt="hero" />
+        <img src="/images/four_slider_img01.png" alt="her o" />
 
         <div id="home-page">
           <h1>Latest Games</h1>
