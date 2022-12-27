@@ -5,7 +5,7 @@ function Header() {
     <div>
       <header>
         <h1>
-          <a class="home" href="#">
+          <a className="home" href="#">
             GamesPlay
           </a>
         </h1>
